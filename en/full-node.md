@@ -281,7 +281,7 @@ followed by the argument `xzf` followed by the file name. The argument
 
 This will create the directory `bitcoin-{{site.DOWNLOAD_VERSION}}` within your current
 working directory. We will install the contents of its `bin`
-subdirectory into the `/usr/local/bin` directory using the the `install`
+subdirectory into the `/usr/local/bin` directory using the `install`
 command. The install command is part of the GNU coreutils available on
 nearly every Linux distribution, and the `/usr/local/bin` directory is a
 standard location for self-installed executables (you may edit the
@@ -421,7 +421,7 @@ Save the file and exit; the updated crontab file will be installed for
 you. On most distributions, this will cause Bitcoin Core daemon to be
 automatically started each time you reboot your computer.
 
-If you're a expert system administrator and want to use an init script instead, see
+If you're an expert system administrator and want to use an init script instead, see
 [the init scripts directory in Bitcoin Core's source tree](https://github.com/bitcoin/bitcoin/tree/master/contrib/init).
 </div>
 
@@ -1062,7 +1062,7 @@ For confirmation that you accept inbound connections, you can use
 Bitcoin Core. Bitcoin Core can't tell you directly whether you allow
 inbound connections, but it can tell you whether or not you currently
 have any inbound connections. If your node has been online for at least
-30 minutes, it should normally have inbound connections. If want to
+30 minutes, it should normally have inbound connections. If you want to
 check your peer info using Bitcoin Core, choose the appropriate
 instructions below:
 
